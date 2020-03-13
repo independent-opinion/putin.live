@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>Putin Presidency Live Translation</title>
+    <meta name="description" content="Party Like a Russian"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <meta name="description" content="Party Like a Russian"/>
+    <link rel="icon" href="./static/favicon.ico"/>
+    <link rel="icon" type="image/png" href="./static/icon/favicon-32x32.png" sizes="32x32"/>
+    <link rel="icon" type="image/png" href="./static/icon/favicon-96x96.png" sizes="96x96"/>
+    <link rel="icon" type="image/png" href="./static/icon/favicon-16x16.png" sizes="16x16"/>
+    <link rel="icon" type="image/png" href="./static/icon/android-chrome-192x192.png" sizes="192x192"/>
+    <link rel="manifest" href="./static/manifest.json" crossorigin="anonymous"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-57x57.png" sizes="57x57"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-60x60.png" sizes="60x60"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-72x72.png" sizes="72x72"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-76x76.png" sizes="76x76"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-114x114.png" sizes="114x114"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-120x120.png" sizes="120x120"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-144x144.png" sizes="144x144"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-152x152.png" sizes="152x152"/>
+    <link rel="apple-touch-icon" href="./static/icon/apple-touch-icon-180x180.png" sizes="180x180"/>
+    <link href="./index.css" rel="stylesheet">
+    <script type="module" src="./index.js"></script>
+</head>
+<body class="putin">
+<putin-load>
+    <img src="./static/svg/logo.svg" alt="Russian Logo"/>
+    <noscript>
+        <p>JavaScript Required</p>
+    </noscript>
+</putin-load>
+<main class="putin-main">
+    <h1 class="putin-header">
+        <img src="./static/svg/logo-small.svg" alt="Putin President Logo Small" class="putin-header__logo"/>
+        <span class="putin-header__title">
+            The President of Russia
+        </span>
+    </h1>
+    <h2 class="putin-name">
+        <strong>Путин</strong>&nbsp;Владимир Владимирович
+    </h2>
+</main>
+<putin-background>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+
+    </svg>
+    <picture>
+        <source srcset="./background/static-1.jpeg" media="(min-width: 767px)">
+        <img srcset="./background/mobile-static-0.jpeg" alt="Putin President Logo">
+    </picture>
+</putin-background>
+<putin-live class="putin-live"></putin-live>
+</body>
+</html>

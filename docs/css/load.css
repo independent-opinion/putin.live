@@ -1,0 +1,26 @@
+putin-load {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background: var(--color-bg-secondary);
+    color: var(--color-secondary);
+    font-weight: lighter;
+    font-size: 2em;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 100;
+}
+
+putin-load img {
+    width: 256px;
+}
+putin-load.ready {
+    opacity: 0;
+    transition: opacity 1.5s;
+}

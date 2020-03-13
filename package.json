@@ -1,0 +1,32 @@
+{
+  "name": "@independent-opinion/putin.live",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Putin Presidency Live Translation",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "serve ./docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/independent-opinion/putin.live.git"
+  },
+  "keywords": [
+    "putin",
+    "independent",
+    "president"
+  ],
+  "author": "Independent Opinion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/independent-opinion/putin.live/issues"
+  },
+  "homepage": "https://github.com/independent-opinion/putin.live#readme",
+  "devDependencies": {
+    "serve": "^11.3.0",
+    "typescript": "^3.8.3"
+  }
+}
